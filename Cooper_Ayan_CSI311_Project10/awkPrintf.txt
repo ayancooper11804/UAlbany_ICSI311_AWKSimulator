@@ -1,0 +1,1 @@
+BEGIN { a = 10; printf("%s",a) }

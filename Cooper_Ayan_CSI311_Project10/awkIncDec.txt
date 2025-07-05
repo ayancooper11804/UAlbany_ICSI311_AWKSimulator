@@ -1,0 +1,7 @@
+BEGIN {
+	num = 5
+	if(num <= 7) {
+		num++
+		print("num")
+	}
+}

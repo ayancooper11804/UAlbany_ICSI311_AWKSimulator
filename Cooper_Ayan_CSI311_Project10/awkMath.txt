@@ -1,0 +1,38 @@
+function add(num1, num2) {
+	return num1+num2
+}
+
+function subtract(num1, num2) {
+	return num1-num2
+}
+
+function multiply(num1, num2) {
+	return num1*num2
+}
+
+function divide(num1, num2) {
+	return num1/num2
+}
+
+function exponent(num1, num2) {
+	return num1^num2
+}
+
+function modulo(num1, num2) {
+	return num1%num2
+}
+
+BEGIN {
+	addResult = add(3, 5)
+	subtractResult = subtract(8, 4)
+	multiplyResult = multiply(3, 2)
+	divideResult = divide(10, 5)
+	exponentResult = exponent(2, 2)
+	moduloResult = modulo(8, 4)
+	print(addResult)
+	print(subtractResult)
+	print(multiplyResult)
+	print(divideResult)
+	print(exponentResult)
+	print(moduloResult)
+}
