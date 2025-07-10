@@ -1,4 +1,4 @@
-# AWK Language Simulator
+# AWK Language Simulator, Fall 2023
 This project was developed as part of my *Principles of Programming Languages* course. The goal was to simulate core functionality of the AWK programming language — a scripting language used for pattern scanning and processing — in order to better understand how programming languages are structured and interpreted.
 ## Project Overview
 This simulator replicates key behaviors of AWK by implementing:
